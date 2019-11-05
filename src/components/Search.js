@@ -12,14 +12,14 @@ class Search extends React.Component {
 
 		return (
 			<header>
-			<form>
-				<input 
-					type="text"
-					ref={ (value) => this.myValue = value}
-					placeholder="Type to Filter"
-					onChange={this.filterUpdate.bind(this)}
+				<form>
+					<input
+						type="text"
+						ref={(value) => this.myValue = value}
+						placeholder="Type to Filter"
+						onChange={this.filterUpdate.bind(this)}
 					/>
-			</form>
+				</form>
 			</header>
 		);
 	}
